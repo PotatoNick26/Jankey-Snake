@@ -105,3 +105,5 @@ Jankey Snake Changelog
 * Changed the Way Color is Applied to the Snake's Body and Head
 * Changed the Tiled Style to Have an Outline Around the Snake, Rather Than Snake Parts Being Separated
 * Added Shaking to the Locked Button
+* Changed Version Text to Display the Correct Version
+* Changed Sizing of Title
