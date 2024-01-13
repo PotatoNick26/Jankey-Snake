@@ -183,6 +183,15 @@ trueImpossibleButton.addEventListener('click', function() {
         settings.mode.custom = false;
     
         setting();
+    } else if (!shakeRunning){
+        shakeRunning = true;
+        trueImpossibleButton.style.animation = 'shake .3s 3'
+        //animation: shake .3s 3;
+        setTimeout(function() {
+            trueImpossibleButton.style.animation = 'none'
+            shakeRunning = false;
+            console.log('e')
+        }, 1000)
     }
 });
 

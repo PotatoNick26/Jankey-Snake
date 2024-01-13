@@ -127,3 +127,19 @@ body {
     flex-direction: row;
     align-items: center;
 }
+
+/* #trueImpossibleButton {
+    animation: shake .3s 3; 
+} */
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+    40% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(-10px);
+    }
+}

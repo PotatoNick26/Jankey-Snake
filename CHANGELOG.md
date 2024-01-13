@@ -104,3 +104,4 @@ Jankey Snake Changelog
 * Split html Into 3 Different Columns/Sections
 * Changed the Way Color is Applied to the Snake's Body and Head
 * Changed the Tiled Style to Have an Outline Around the Snake, Rather Than Snake Parts Being Separated
+* Added Shaking to the Locked Button

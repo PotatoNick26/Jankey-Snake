@@ -31,3 +31,4 @@ let speedPlusVisible = false;
 let style = undefined;
 let canUseTrueImpossible = false;
 let gameOver = false;
+let shakeRunning = false;
