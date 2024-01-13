@@ -1,20 +1,24 @@
 body {
     background: rgb(50,50,50);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #canvasBorder {
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    position:  absolute;
     background: rgb(0,0,54);
     padding: 100px;
     box-shadow: black 20px 10px 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #game {
-    width: 400;
-    height: 400;
+    width: 400px;
+    height: 400px;
     box-shadow: black 20px 10px 50px;
 }
 
@@ -46,9 +50,6 @@ body {
     font-family: 'Zeyada', cursive;
     justify-content: space-evenly ;
     font-size: 40px;
-    left: 1%;
-    top: -7%;
-    position: absolute;
 }
 
 #snakeTitle {
@@ -76,12 +77,10 @@ body {
     font-family: 'Silkscreen', sans-serif;
     font-size: 22px;
     border: 0px;
+    width: 250px;
 }
 
 #modeSelector {
-    position: absolute;
-    top: 25%;
-    left: 1%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -111,4 +110,20 @@ body {
     border: 0px;
     opacity: 0%;
     margin: 0%;
+}
+
+.column {
+    width: 33.33%;
+}
+
+#leftColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#middleColumn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

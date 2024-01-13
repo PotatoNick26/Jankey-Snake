@@ -18,21 +18,32 @@
 </head>
 <body>
     
-    <div id="title"><h1 id="jankeyTitle"><span class="outline2">Jankey</span></h1> <h1 id="snakeTitle"><span class="outline1">Snake</span></h1></div>
-    <!-- <h2 class="left" id="scoreDisplay">Score: </h2>
-    <h2 class="left" id="speedDisplay">Speed: </h2> -->
+    <div class="column" id="leftColumn">
+        <div id="title"><h1 id="jankeyTitle"><span class="outline2">Jankey</span></h1> <h1 id="snakeTitle"><span class="outline1">Snake</span></h1></div>
+
+        <div id="modeSelector">
+            <button class="modeBoxes" id="easyButton">Easy</button>
+            <button class="modeBoxes" id="normalButton">Normal</button>
+            <button class="modeBoxes" id="hardButton">Hard</button>
+            <button class="modeBoxes" id="impossibleButton">Impossible</button>
+            <button class="modeBoxes" id="sameSpeedButton">Same Speed</button>
+            <button class="modeBoxes" id="trueImpossibleButton">Locked??</button>
+        </div>
+    </div>
+
     <h4 class="left" id="version">v2</h4>
-    <div id="canvasBorder">
-        <canvas id="game"></canvas>
+
+    <div class="column" id="middleColumn">
+        <div></div>
+
+        <div id="canvasBorder">
+            <canvas id="game"></canvas>
+        </div>
     </div>
-    <div id="modeSelector">
-        <button class="modeBoxes" id="easyButton">Easy</button>
-        <button class="modeBoxes" id="normalButton">Normal</button>
-        <button class="modeBoxes" id="hardButton">Hard</button>
-        <button class="modeBoxes" id="impossibleButton">Impossible</button>
-        <button class="modeBoxes" id="sameSpeedButton">Same Speed</button>
-        <button class="modeBoxes" id="trueImpossibleButton">Locked??</button>
-    </div>
+
+    <div class="column"></div>
+
+    
     <!-- <button class="hiddenBox" id="trueImpossibleButton"></button> -->
     <script src="gameVariables.js"></script>
     <script src="settings.js"></script>

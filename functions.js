@@ -91,13 +91,24 @@ function clearScreen() {
 }
 
 function drawSnake() {
-    ctx.fillStyle= settings.snake.bodyColor;
+    ctx.fillStyle= `rgb(${settings.snake.bodyRed}, ${settings.snake.bodyGreen}, ${settings.snake.bodyBlue})`
     snakeParts.forEach(part => {
         ctx.fillRect(part.x * tileCount, part.y * tileCount, tileSize, tileSize)
     });
 
-    ctx.fillStyle = settings.snake.headColor;
+    ctx.strokeStyle = `rgb(${settings.snake.bodyRed - 50}, ${settings.snake.bodyGreen - 50}, ${settings.snake.bodyBlue - 50})`
+    if (settings.snake.style.tiled) {
+        snakeParts.forEach(part => {
+        ctx.strokeRect(part.x * tileCount - 0.5, part.y * tileCount - 0.5, tileSize + 1, tileSize + 1)
+        })
+    }
+
+
+    ctx.fillStyle = `rgb(${settings.snake.headRed}, ${settings.snake.headGreen}, ${settings.snake.headBlue})`
     ctx.fillRect(headX * tileCount, headY * tileCount, tileSize, tileSize);
+    if (settings.snake.style.tiled) {
+        ctx.strokeRect(headX * tileCount - 0.5, headY * tileCount - 0.5, tileSize + 1, tileSize + 1);
+    }
 
     snakeParts.push(new SnakePart(headX, headY));
     if (snakeParts.length > tailLength) {
@@ -113,7 +124,11 @@ function changeSnakePosition() {
 
 function drawApple() {
     ctx.fillStyle = settings.apple.color;
+    if (settings.snake.style.tiled) {
+        ctx.fillRect(appleX * tileCount - 0.5, appleY * tileCount - 0.5, tileSize + 1, tileSize + 1)
+    } else {
     ctx.fillRect(appleX * tileCount, appleY * tileCount, tileSize, tileSize)
+    }
 }
 
 function checkAppleCollision() {
