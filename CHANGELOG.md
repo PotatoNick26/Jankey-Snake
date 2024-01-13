@@ -7,7 +7,7 @@ JankeySnake Changelog
 *   Version Text
 *   Slightly Easier Movement
 
-### Version 1.1.0
+### Version 2.0.0
 *   Removed Original index.html File
 *   Added New index.html File
 *   Added index.css File
@@ -16,4 +16,5 @@ JankeySnake Changelog
 *   Added Game Screen
 *   Formatted Game Screen to Appear in Center
 
-### Version 1.1.1
+### Version 2.2.0
+* Added sdjfbsdjhbfjhsdb
