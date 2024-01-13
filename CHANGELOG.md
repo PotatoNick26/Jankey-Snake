@@ -98,3 +98,6 @@ Jankey Snake Changelog
 * Added Speed Display to Top Left of Game Screen
 * Added Game Resetting When Mode is Changed
 * Fixed Game Over Not Resetting When Mode is Changed
+
+### Version 1.3.7
+* Changed Position of Mode Buttons and Title to be More Friendly to Smaller Screens
