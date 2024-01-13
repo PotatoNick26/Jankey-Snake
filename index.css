@@ -1,0 +1,116 @@
+body {
+    background: rgb(50,50,50);
+}
+
+#canvasBorder {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: rgb(0,0,54);
+    padding: 100px;
+    box-shadow: black 20px 10px 50px;
+}
+
+#game {
+    width: 400;
+    height: 400;
+    box-shadow: black 20px 10px 50px;
+}
+
+#scoreDisplay {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    top: 48%;
+    position: absolute;
+}
+
+#speedDisplay {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    top: 52%;
+    position: absolute;
+}
+
+#version {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0%;
+}
+
+#title {
+    display: flex;
+    top: 7%;
+    font-family: 'Zeyada', cursive;
+    justify-content: space-evenly ;
+    font-size: 50px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#snakeTitle {
+    color: lime;
+    text-shadow: 3cm 4cm 4cm black;
+}
+
+#jankeyTitle {
+    color: red;
+}
+
+.outline1 {
+    text-shadow: 3px 3px 7px purple;
+}
+
+.outline2 {
+    text-shadow: 3px 3px 7px purple;
+}
+
+.modeBoxes {
+    box-shadow: black 20px 10px 50px;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(53, 53, 172);
+    color: white;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 22px;
+    border: 0px;
+}
+
+#modeSelector {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%, -50%);
+    justify-content: space-around;
+    width: 900px;
+}
+
+.grow {
+    transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.modeBoxes:hover {
+    background: orange;
+}
+
+.hiddenBox {
+    box-shadow: black 20px 10px 50px;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(53, 53, 172);
+    color: white;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 22px;
+    border: 0px;
+    opacity: 0%;
+    margin: 0%;
+}
