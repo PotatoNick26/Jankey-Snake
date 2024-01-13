@@ -45,9 +45,9 @@ body {
     display: flex;
     font-family: 'Zeyada', cursive;
     justify-content: space-evenly ;
-    font-size: 50px;
+    font-size: 40px;
     left: 1%;
-    top: -8.5%;
+    top: -7%;
     position: absolute;
 }
 
