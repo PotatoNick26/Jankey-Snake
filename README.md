@@ -57,3 +57,4 @@ If you manage to obtain a score of 20 in Impossible Mode, you will be allowed to
 - [ ] Make keys more reactive to feel smoother.
 - [ ] Add visual effects and an option to disable/enable them.
 - [ ] Add Sound and a volume option.
+- [ ] Add option to change the number of apples that spawn.
