@@ -53,7 +53,7 @@ If you manage to obtain a score of 20 in Impossible Mode, you will be allowed to
 - [ ] Add an option to change style and color of snake and apple.
 - [ ] Add a way to go back to version 1.0.0 of Jankey Snake.
 - [ ] Add option to change speed and speed change amount.
-- [] Add a way to restart the game without reloading the page or changing modes.
+- [ ] Add a way to restart the game without reloading the page or changing modes.
 - [ ] Make keys more reactive to feel smoother.
 - [ ] Add visual effects and an option to disable/enable them.
 - [ ] Add Sound and a volume option.
