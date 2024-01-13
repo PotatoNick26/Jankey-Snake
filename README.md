@@ -44,16 +44,16 @@ If you manage to obtain a score of 20 in Impossible Mode, you will be allowed to
 
 ## Planned Changes / Bug Fixes
 - [x] Add different modes.
-- [] Fix apples spawning inside of player.
-- [] Add a custom mode.
+- [ ] Fix apples spawning inside of player.
+- [ ] Add a custom mode.
 - [x] Fix snake being able to turn inside of itself.
 - [x] Add true impossible mode.
-- [] Add a settings panel.
-- [] Add an option to teleport when snake hits border.
-- [] Add an option to change style and color of snake and apple.
-- [] Add a way to go back to version 1.0.0 of Jankey Snake.
-- [] Add option to change speed and speed change amount.
-- [-] Add a way to restart the game without reloading the page.
-- [] Make keys more reactive to feel smoother.
-- [] Add visual effects and an option to disable/enable them.
-- [] Add Sound and a volume option.
+- [ ] Add a settings panel.
+- [ ] Add an option to teleport when snake hits border.
+- [ ] Add an option to change style and color of snake and apple.
+- [ ] Add a way to go back to version 1.0.0 of Jankey Snake.
+- [ ] Add option to change speed and speed change amount.
+- [] Add a way to restart the game without reloading the page or changing modes.
+- [ ] Make keys more reactive to feel smoother.
+- [ ] Add visual effects and an option to disable/enable them.
+- [ ] Add Sound and a volume option.
