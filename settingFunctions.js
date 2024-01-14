@@ -90,7 +90,7 @@ function setting() {
         gameOver = false;
 
         speed = 5;
-        speedBoost = 20;
+        speedBoost = 30;
         boostChange = true;
     } else if (settings.mode.sameSpeed) {
         snakeParts.splice(0, snakeParts.length);    

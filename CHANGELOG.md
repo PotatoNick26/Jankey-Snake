@@ -106,4 +106,5 @@ Jankey Snake Changelog
 * Changed the Tiled Style to Have an Outline Around the Snake, Rather Than Snake Parts Being Separated
 * Added Shaking to the Locked Button
 * Changed Version Text to Display the Correct Version
-* Changed Sizing of Title
+* Changed Sizing of Elements to Reflect Screen Size
+* Changed True Impossible Mode's Speed Change Amount from 20 to 30
