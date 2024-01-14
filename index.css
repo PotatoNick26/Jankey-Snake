@@ -50,16 +50,23 @@ body {
 
 #title {
     display: flex;
+    flex-direction: row;
     font-family: 'Zeyada', cursive;
     font-size: 5vh;
+    border: 3px solid red;
+
+    position: absolute;
+    top: 0vh;
 }
 
 #snakeTitle {
     color: lime;
+    margin-left: 1.5vh;
 }
 
 #jankeyTitle {
     color: red;
+    margin-right: 1.5vh;
 }
 
 .outline1 {
@@ -77,11 +84,11 @@ body {
     background: rgb(53, 53, 172);
     color: white;
     font-family: 'Silkscreen', sans-serif;
-    font-size: 2vh;
+    font-size: 1.8vh;
     border: 0px;
 }
 
-#modeSelector {
+.modeSelector {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -165,7 +172,5 @@ body {
 }
 
 #A1 {
-    display: flex;
-    justify-content: space-evenly ;
     border: 3px solid lime;
 }
