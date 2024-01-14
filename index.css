@@ -4,13 +4,16 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 99vw;
 }
 
 #canvasBorder {
-    position:  absolute;
     background: rgb(0,0,54);
     padding: 100px;
     box-shadow: black 20px 10px 50px;
+    position:  absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -48,8 +51,7 @@ body {
 #title {
     display: flex;
     font-family: 'Zeyada', cursive;
-    justify-content: space-evenly ;
-    font-size: 300%;
+    font-size: 5vh;
 }
 
 #snakeTitle {
@@ -75,16 +77,16 @@ body {
     background: rgb(53, 53, 172);
     color: white;
     font-family: 'Silkscreen', sans-serif;
-    font-size: 22px;
+    font-size: 2vh;
     border: 0px;
-    width: 250px;
 }
 
 #modeSelector {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 500px;
+    height: 33.33vh;
+    margin: 0.8vh;
 }
 
 .grow {
@@ -114,18 +116,25 @@ body {
 
 .column {
     width: 33.33%;
+    height: 95vh;
+    /* max-height: 100%; */
+    padding: 0;
+    margin: 0;
 }
 
 #leftColumn {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    
 }
 
 #middleColumn {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 
 /* #trueImpossibleButton {
@@ -142,4 +151,21 @@ body {
     100% {
         transform: translateX(-10px);
     }
+}
+
+.aThirdOfHeight {
+    height: 33vh;
+    width: 100%;
+    border: 3px solid orange;
+}
+
+#A2 {
+    display: flex;
+    justify-content: center;
+}
+
+#A1 {
+    display: flex;
+    justify-content: space-evenly ;
+    border: 3px solid lime;
 }
